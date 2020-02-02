@@ -38,7 +38,7 @@ driver.find_element_by_css_selector('div.v1Nh3.kIKUG._bz0w').click()
 for i in range(int(totalCount)):
  #   time.sleep(1)
     data = driver.find_element_by_css_selector('.C7I1f.X7jCj')
-   #print(data.text)
+    print(data.text)
     tag_raw = data.text
     tags = re.findall('#[A-Za-z0-9가-힣]+', tag_raw)
     tag = ''.join(tags).replace("#"," ") # "#" 제거
