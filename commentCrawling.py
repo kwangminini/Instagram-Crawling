@@ -13,7 +13,7 @@ import re
 import csv
 import sys
 
-keyword = "뚜레쥬르브라우니"
+keyword = "마라스팸"
 
 url = "https://www.instagram.com/explore/tags/{}/".format(keyword)
 
@@ -35,11 +35,20 @@ totalCount = totalCount.replace(",","")
 
 driver.find_element_by_css_selector('div.v1Nh3.kIKUG._bz0w').click()
 
-for i in range(30):
+for i in range(int(totalCount)):
     time.sleep(1)
     try:
-        data = driver.find_element_by_css_selector('.C7I1f.X7jCj')
+        data = driver.find_element_by_css_selector('.XQXOT') #게시물과 댓글
         tag_raw = data.text
+        postList = tag_raw.split("\n")
+        print(postList)
+        for i in postList:
+            if re.match('[0-9]*[w]', i):
+                idx=postList.index(i)
+                print(postList.index(i))
+                break
+        print(postList[idx:])
+
         tags = re.findall('#[A-Za-z0-9가-힣]+', tag_raw)
         tag = ''.join(tags).replace("#", " ")
 
@@ -50,12 +59,11 @@ for i in range(30):
         #print(instagram_tags)
 
         date = driver.find_element_by_css_selector("time.FH9sR.Nzb55").text  # 날짜 선택
-        #date = date[:-1]
-        print(date)
-        if date.find('h') != -1 or date.find('d') != -1 or date.find('m') != -1:
-            instagram_tag_dates.append(0)
+        date = date[:-1]
+        #print(date)
+        if date.find('시간') != -1 or date.find('일') != -1 or date.find('분') != -1:
+            instagram_tag_dates.append('0주')
         else:
-            date = date[:-1]
             if int(date)<=8:
                 instagram_tag_dates.append(date)
 
@@ -63,13 +71,13 @@ for i in range(30):
         instagram_tags.append("error")
         instagram_tag_dates.append('error')
     try:
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'a.HBoOv.coreSpriteRightPaginationArrow')))
+        WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'a.HBoOv.coreSpriteRightPaginationArrow')))
         driver.find_element_by_css_selector('a.HBoOv.coreSpriteRightPaginationArrow').click()
 
     except:
         driver.close()
     time.sleep(2)
-print(instagram_tag_dates)
+
 instagram_date_dic={}
 for i in range(len(instagram_tag_dates)):
     if int(instagram_tag_dates[i]) in instagram_date_dic:

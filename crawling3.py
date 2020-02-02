@@ -13,7 +13,7 @@ import re
 import csv
 import sys
 
-keyword = "뚜레쥬르브라우니"
+keyword = "마라스팸"
 
 url = "https://www.instagram.com/explore/tags/{}/".format(keyword)
 
