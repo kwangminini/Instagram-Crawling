@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89721167-1f0f-414a-9821-5f6b4378837e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/csvSaveTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/regexTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentCrawlingFinal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commentCrawling.py" beforeDir="false" afterPath="$PROJECT_DIR$/commentCrawling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,22 +22,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XByXH8h5Z8QC25a8FALODScVNt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.commentCrawling">
+  <component name="RunManager" selected="Python.commentCrawlingFinal">
     <configuration name="commentCrawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="crawling3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="commentCrawlingFinal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawling3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commentCrawlingFinal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.commentCrawling" />
+        <item itemvalue="Python.commentCrawlingFinal" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.commentCrawling" />
         <item itemvalue="Python.regexTest" />
         <item itemvalue="Python.csvSaveTest" />
-        <item itemvalue="Python.crawling3" />
       </list>
     </recent_temporary>
   </component>
@@ -168,59 +173,66 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2081" y="171" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580633462477">
       <screen x="1792" y="23" width="1440" height="877" />
     </state>
     <state x="360" y="196" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1023@0.23.1792.1023" timestamp="1580534357180" />
     <state x="2081" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580633462477" />
-    <state width="1419" height="248" key="GridCell.Tab.0.bottom" timestamp="1580742966404">
+    <state width="1419" height="248" key="GridCell.Tab.0.bottom" timestamp="1580751958717">
       <screen x="1792" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="248" key="GridCell.Tab.0.bottom/0.23.1792.1023@0.23.1792.1023" timestamp="1580742643323" />
     <state width="1419" height="271" key="GridCell.Tab.0.bottom/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580656127099" />
-    <state width="1419" height="248" key="GridCell.Tab.0.bottom/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580742966404" />
-    <state width="1419" height="248" key="GridCell.Tab.0.center" timestamp="1580742966404">
+    <state width="1419" height="248" key="GridCell.Tab.0.bottom/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580751958717" />
+    <state width="1419" height="248" key="GridCell.Tab.0.center" timestamp="1580751958716">
       <screen x="1792" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="248" key="GridCell.Tab.0.center/0.23.1792.1023@0.23.1792.1023" timestamp="1580742643322" />
     <state width="1419" height="271" key="GridCell.Tab.0.center/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580656127098" />
-    <state width="1419" height="248" key="GridCell.Tab.0.center/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580742966404" />
-    <state width="1419" height="248" key="GridCell.Tab.0.left" timestamp="1580742966404">
+    <state width="1419" height="248" key="GridCell.Tab.0.center/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580751958716" />
+    <state width="1419" height="248" key="GridCell.Tab.0.left" timestamp="1580751958716">
       <screen x="1792" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="248" key="GridCell.Tab.0.left/0.23.1792.1023@0.23.1792.1023" timestamp="1580742643322" />
     <state width="1419" height="271" key="GridCell.Tab.0.left/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580656127098" />
-    <state width="1419" height="248" key="GridCell.Tab.0.left/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580742966404" />
-    <state width="1419" height="248" key="GridCell.Tab.0.right" timestamp="1580742966404">
+    <state width="1419" height="248" key="GridCell.Tab.0.left/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580751958716" />
+    <state width="1419" height="248" key="GridCell.Tab.0.right" timestamp="1580751958717">
       <screen x="1792" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="248" key="GridCell.Tab.0.right/0.23.1792.1023@0.23.1792.1023" timestamp="1580742643323" />
     <state width="1419" height="271" key="GridCell.Tab.0.right/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580656127099" />
-    <state width="1419" height="248" key="GridCell.Tab.0.right/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580742966404" />
-    <state width="1419" height="285" key="GridCell.Tab.1.bottom" timestamp="1580645931482">
-      <screen x="1792" y="23" width="1440" height="803" />
+    <state width="1419" height="248" key="GridCell.Tab.0.right/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580751958717" />
+    <state width="1419" height="285" key="GridCell.Tab.1.bottom" timestamp="1580750338094">
+      <screen x="1792" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="285" key="GridCell.Tab.1.bottom/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580645931482" />
-    <state width="1419" height="285" key="GridCell.Tab.1.bottom/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580633351108" />
-    <state width="1419" height="285" key="GridCell.Tab.1.center" timestamp="1580645931482">
-      <screen x="1792" y="23" width="1440" height="803" />
+    <state width="1419" height="285" key="GridCell.Tab.1.bottom/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580750338094" />
+    <state width="1419" height="285" key="GridCell.Tab.1.center" timestamp="1580750338094">
+      <screen x="1792" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="285" key="GridCell.Tab.1.center/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580645931482" />
-    <state width="1419" height="285" key="GridCell.Tab.1.center/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580633351108" />
-    <state width="1419" height="285" key="GridCell.Tab.1.left" timestamp="1580645931481">
-      <screen x="1792" y="23" width="1440" height="803" />
+    <state width="1419" height="285" key="GridCell.Tab.1.center/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580750338094" />
+    <state width="1419" height="285" key="GridCell.Tab.1.left" timestamp="1580750338093">
+      <screen x="1792" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="285" key="GridCell.Tab.1.left/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580645931481" />
-    <state width="1419" height="285" key="GridCell.Tab.1.left/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580633351107" />
-    <state width="1419" height="285" key="GridCell.Tab.1.right" timestamp="1580645931482">
-      <screen x="1792" y="23" width="1440" height="803" />
+    <state width="1419" height="285" key="GridCell.Tab.1.left/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580750338093" />
+    <state width="1419" height="285" key="GridCell.Tab.1.right" timestamp="1580750338094">
+      <screen x="1792" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="285" key="GridCell.Tab.1.right/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580645931482" />
-    <state width="1419" height="285" key="GridCell.Tab.1.right/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580633351108" />
+    <state width="1419" height="285" key="GridCell.Tab.1.right/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580750338094" />
     <state x="573" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1580533822332">
       <screen x="0" y="23" width="1792" height="1023" />
     </state>
     <state x="573" y="367" key="com.intellij.ide.util.TipDialog/0.23.1792.1023@0.23.1792.1023" timestamp="1580533822332" />
+    <state x="2121" y="49" width="782" height="825" key="find.popup" timestamp="1580751703789">
+      <screen x="1792" y="23" width="1440" height="877" />
+    </state>
+    <state x="2121" y="49" width="782" height="825" key="find.popup/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580751703789" />
   </component>
 </project>
