@@ -43,7 +43,7 @@ for i in range(int(totalCount)):
         postList = tag_raw.split("\n")
         print(postList)
         for i in postList:
-            if re.match('[0-9]*[w]', i):
+            if re.match('[0-9]*w$', i):
                 idx=postList.index(i)
                 print(postList.index(i))
                 break

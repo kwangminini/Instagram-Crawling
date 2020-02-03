@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89721167-1f0f-414a-9821-5f6b4378837e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/commentCrawling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/csvSaveTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/regexTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawling2.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawling2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commentCrawling.py" beforeDir="false" afterPath="$PROJECT_DIR$/commentCrawling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Test" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.commentCrawling">
     <configuration name="commentCrawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
@@ -46,48 +53,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commentCrawling.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="crawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawling.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="crawling2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawling2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,6 +82,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="csvSaveTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/csvSaveTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="regexTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/regexTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +136,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,9 +149,9 @@
       <list>
         <item itemvalue="Python.commentCrawling" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.regexTest" />
+        <item itemvalue="Python.csvSaveTest" />
         <item itemvalue="Python.crawling3" />
-        <item itemvalue="Python.crawling2" />
-        <item itemvalue="Python.crawling" />
       </list>
     </recent_temporary>
   </component>
@@ -167,30 +174,30 @@
     </state>
     <state x="360" y="196" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1023@0.23.1792.1023" timestamp="1580534357180" />
     <state x="2081" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580633462477" />
-    <state width="1419" height="316" key="GridCell.Tab.0.bottom" timestamp="1580664431465">
-      <screen x="0" y="23" width="1792" height="1023" />
+    <state width="1419" height="248" key="GridCell.Tab.0.bottom" timestamp="1580742966404">
+      <screen x="1792" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="316" key="GridCell.Tab.0.bottom/0.23.1792.1023@0.23.1792.1023" timestamp="1580664431465" />
+    <state width="1419" height="248" key="GridCell.Tab.0.bottom/0.23.1792.1023@0.23.1792.1023" timestamp="1580742643323" />
     <state width="1419" height="271" key="GridCell.Tab.0.bottom/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580656127099" />
-    <state width="1419" height="120" key="GridCell.Tab.0.bottom/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580643619463" />
-    <state width="1419" height="316" key="GridCell.Tab.0.center" timestamp="1580664431465">
-      <screen x="0" y="23" width="1792" height="1023" />
+    <state width="1419" height="248" key="GridCell.Tab.0.bottom/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580742966404" />
+    <state width="1419" height="248" key="GridCell.Tab.0.center" timestamp="1580742966404">
+      <screen x="1792" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="316" key="GridCell.Tab.0.center/0.23.1792.1023@0.23.1792.1023" timestamp="1580664431465" />
+    <state width="1419" height="248" key="GridCell.Tab.0.center/0.23.1792.1023@0.23.1792.1023" timestamp="1580742643322" />
     <state width="1419" height="271" key="GridCell.Tab.0.center/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580656127098" />
-    <state width="1419" height="120" key="GridCell.Tab.0.center/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580643619463" />
-    <state width="1419" height="316" key="GridCell.Tab.0.left" timestamp="1580664431464">
-      <screen x="0" y="23" width="1792" height="1023" />
+    <state width="1419" height="248" key="GridCell.Tab.0.center/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580742966404" />
+    <state width="1419" height="248" key="GridCell.Tab.0.left" timestamp="1580742966404">
+      <screen x="1792" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="316" key="GridCell.Tab.0.left/0.23.1792.1023@0.23.1792.1023" timestamp="1580664431464" />
+    <state width="1419" height="248" key="GridCell.Tab.0.left/0.23.1792.1023@0.23.1792.1023" timestamp="1580742643322" />
     <state width="1419" height="271" key="GridCell.Tab.0.left/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580656127098" />
-    <state width="1419" height="120" key="GridCell.Tab.0.left/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580643619463" />
-    <state width="1419" height="316" key="GridCell.Tab.0.right" timestamp="1580664431465">
-      <screen x="0" y="23" width="1792" height="1023" />
+    <state width="1419" height="248" key="GridCell.Tab.0.left/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580742966404" />
+    <state width="1419" height="248" key="GridCell.Tab.0.right" timestamp="1580742966404">
+      <screen x="1792" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="316" key="GridCell.Tab.0.right/0.23.1792.1023@0.23.1792.1023" timestamp="1580664431465" />
+    <state width="1419" height="248" key="GridCell.Tab.0.right/0.23.1792.1023@0.23.1792.1023" timestamp="1580742643323" />
     <state width="1419" height="271" key="GridCell.Tab.0.right/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580656127099" />
-    <state width="1419" height="120" key="GridCell.Tab.0.right/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580643619463" />
+    <state width="1419" height="248" key="GridCell.Tab.0.right/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580742966404" />
     <state width="1419" height="285" key="GridCell.Tab.1.bottom" timestamp="1580645931482">
       <screen x="1792" y="23" width="1440" height="803" />
     </state>
