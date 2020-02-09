@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89721167-1f0f-414a-9821-5f6b4378837e" name="Default Changelist" comment="" />
+    <list default="true" id="89721167-1f0f-414a-9821-5f6b4378837e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/listToCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/listToCSV.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,10 +225,10 @@
     </state>
     <state width="1419" height="285" key="GridCell.Tab.1.right/1792.23.1440.803/0.23.1792.1097@1792.23.1440.803" timestamp="1580645931482" />
     <state width="1419" height="285" key="GridCell.Tab.1.right/1792.23.1440.877/0.23.1792.1023@1792.23.1440.877" timestamp="1580753000841" />
-    <state x="573" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1580533822332">
+    <state x="573" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1581259636474">
       <screen x="0" y="23" width="1792" height="1023" />
     </state>
-    <state x="573" y="367" key="com.intellij.ide.util.TipDialog/0.23.1792.1023@0.23.1792.1023" timestamp="1580533822332" />
+    <state x="573" y="367" key="com.intellij.ide.util.TipDialog/0.23.1792.1023@0.23.1792.1023" timestamp="1581259636474" />
     <state x="2121" y="49" width="782" height="825" key="find.popup" timestamp="1580751703789">
       <screen x="1792" y="23" width="1440" height="877" />
     </state>
